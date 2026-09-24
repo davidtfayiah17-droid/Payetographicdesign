@@ -567,3 +567,36 @@ contactForm.addEventListener("submit", function(event) {
     contactForm.reset();
 
 });
+
+
+
+/* =========================================
+   MOBILE HERO IMAGE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto 0;
+    }
+
+    .hero-image img {
+        width: 300px;
+        height: 300px;
+        max-width: 90vw;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}

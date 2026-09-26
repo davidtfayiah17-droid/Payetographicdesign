@@ -1522,3 +1522,31 @@ html {
         height: 8px;
     }
 }
+@media (max-width: 768px) {
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 35px auto 40px;
+        padding: 0;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+
+    .hero-image img {
+        width: 300px;
+        height: 300px;
+        max-width: 85vw;
+        max-height: 85vw;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
